@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2732E90D130870BB00F44C80 /* UFOLeaderboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2732E90B130870BB00F44C80 /* UFOLeaderboardViewController.xib */; };
+		2737CA1A137F67030002FA0D /* EnemySaucer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2737CA18137F67030002FA0D /* EnemySaucer1.png */; };
+		2737CA1B137F67030002FA0D /* EnemySaucer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2737CA19137F67030002FA0D /* EnemySaucer2.png */; };
+		2756665B12EF562000CC2EB6 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2756665A12EF562000CC2EB6 /* GameKit.framework */; };
+		277CFF8A138ED8E70095A0F4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277CFF89138ED8E70095A0F4 /* AVFoundation.framework */; };
+		277CFFA4138F2DA30095A0F4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277CFFA3138F2DA30095A0F4 /* AudioToolbox.framework */; };
+		27A8BA3C1402DD3300012F1F /* Ship2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A8BA3A1402DD3300012F1F /* Ship2.png */; };
+		27A8BA3D1402DD3300012F1F /* Ship1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A8BA3B1402DD3300012F1F /* Ship1.png */; };
+		27A9A6DE13FF13D000494038 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A9A6DD13FF13D000494038 /* StoreKit.framework */; };
+		27BAE39C12A307A40062BCD7 /* UFOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE39612A307A40062BCD7 /* UFOViewController.xib */; };
+		27BAE39E12A307A40062BCD7 /* UFOGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE39912A307A40062BCD7 /* UFOGameViewController.xib */; };
+		27BAE3B112A307AD0062BCD7 /* Cow1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A012A307AD0062BCD7 /* Cow1.png */; };
+		27BAE3B212A307AD0062BCD7 /* Cow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A112A307AD0062BCD7 /* Cow2.png */; };
+		27BAE3B312A307AD0062BCD7 /* Cow3.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A212A307AD0062BCD7 /* Cow3.png */; };
+		27BAE3B412A307AD0062BCD7 /* Cow1Reversed.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A312A307AD0062BCD7 /* Cow1Reversed.png */; };
+		27BAE3B512A307AD0062BCD7 /* Cow2Reversed.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A412A307AD0062BCD7 /* Cow2Reversed.png */; };
+		27BAE3B612A307AD0062BCD7 /* Cow3Reversed.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A512A307AD0062BCD7 /* Cow3Reversed.png */; };
+		27BAE3B712A307AD0062BCD7 /* Grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A612A307AD0062BCD7 /* Grass.png */; };
+		27BAE3B812A307AD0062BCD7 /* Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A712A307AD0062BCD7 /* Sky.png */; };
+		27BAE3B912A307AD0062BCD7 /* UFO.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A812A307AD0062BCD7 /* UFO.png */; };
+		27BAE3BA12A307AD0062BCD7 /* Saucer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3A912A307AD0062BCD7 /* Saucer1.png */; };
+		27BAE3BB12A307AD0062BCD7 /* Saucer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3AA12A307AD0062BCD7 /* Saucer2.png */; };
+		27BAE3BC12A307AD0062BCD7 /* SaucerBankL1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3AB12A307AD0062BCD7 /* SaucerBankL1.png */; };
+		27BAE3BD12A307AD0062BCD7 /* SaucerBankL2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3AC12A307AD0062BCD7 /* SaucerBankL2.png */; };
+		27BAE3BE12A307AD0062BCD7 /* SaucerBankR1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3AD12A307AD0062BCD7 /* SaucerBankR1.png */; };
+		27BAE3BF12A307AD0062BCD7 /* SaucerBankR2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3AE12A307AD0062BCD7 /* SaucerBankR2.png */; };
+		27BAE3C012A307AD0062BCD7 /* Tractor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3AF12A307AD0062BCD7 /* Tractor1.png */; };
+		27BAE3C112A307AD0062BCD7 /* Tractor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3B012A307AD0062BCD7 /* Tractor2.png */; };
+		27BAE3C412A307BC0062BCD7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BAE3C312A307BC0062BCD7 /* MainWindow.xib */; };
+		27E23B8F1321894C00EF4DA7 /* UFOAchievementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E23B8D1321894C00EF4DA7 /* UFOAchievementViewController.xib */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		8B9AFA4F26B1E3AC002BE0A6 /* GameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D1D9425C7FE280091DB72 /* GameCenterManager.swift */; };
+		EDA9BA2A25C83844009A2F52 /* UFOAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9BA2925C83844009A2F52 /* UFOAppDelegate.swift */; };
+		EDA9BA4425C89463009A2F52 /* UFOLeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9BA3325C88FDB009A2F52 /* UFOLeaderBoardViewController.swift */; };
+		EDBB1A3C25C91A1A0045ED8F /* UFOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9BA4725C895EF009A2F52 /* UFOViewController.swift */; };
+		EDBB1A4B25C924B20045ED8F /* UFOAchievementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB1A4A25C924B20045ED8F /* UFOAchievementViewController.swift */; };
+		EDBB1A5A25C959F90045ED8F /* UFOGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBB1A4F25C93B170045ED8F /* UFOGameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* UFOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2732E90B130870BB00F44C80 /* UFOLeaderboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UFOLeaderboardViewController.xib; sourceTree = "<group>"; };
+		2737CA18137F67030002FA0D /* EnemySaucer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnemySaucer1.png; sourceTree = "<group>"; };
+		2737CA19137F67030002FA0D /* EnemySaucer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnemySaucer2.png; sourceTree = "<group>"; };
+		2756665A12EF562000CC2EB6 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		277CFF89138ED8E70095A0F4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		277CFFA3138F2DA30095A0F4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		27A8BA3A1402DD3300012F1F /* Ship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship2.png; sourceTree = "<group>"; };
+		27A8BA3B1402DD3300012F1F /* Ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship1.png; sourceTree = "<group>"; };
+		27A9A6DD13FF13D000494038 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		27BAE39612A307A40062BCD7 /* UFOViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UFOViewController.xib; sourceTree = "<group>"; };
+		27BAE39912A307A40062BCD7 /* UFOGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UFOGameViewController.xib; sourceTree = "<group>"; };
+		27BAE3A012A307AD0062BCD7 /* Cow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cow1.png; sourceTree = "<group>"; };
+		27BAE3A112A307AD0062BCD7 /* Cow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cow2.png; sourceTree = "<group>"; };
+		27BAE3A212A307AD0062BCD7 /* Cow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cow3.png; sourceTree = "<group>"; };
+		27BAE3A312A307AD0062BCD7 /* Cow1Reversed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cow1Reversed.png; sourceTree = "<group>"; };
+		27BAE3A412A307AD0062BCD7 /* Cow2Reversed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cow2Reversed.png; sourceTree = "<group>"; };
+		27BAE3A512A307AD0062BCD7 /* Cow3Reversed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cow3Reversed.png; sourceTree = "<group>"; };
+		27BAE3A612A307AD0062BCD7 /* Grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grass.png; sourceTree = "<group>"; };
+		27BAE3A712A307AD0062BCD7 /* Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sky.png; sourceTree = "<group>"; };
+		27BAE3A812A307AD0062BCD7 /* UFO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO.png; sourceTree = "<group>"; };
+		27BAE3A912A307AD0062BCD7 /* Saucer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saucer1.png; sourceTree = "<group>"; };
+		27BAE3AA12A307AD0062BCD7 /* Saucer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saucer2.png; sourceTree = "<group>"; };
+		27BAE3AB12A307AD0062BCD7 /* SaucerBankL1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaucerBankL1.png; sourceTree = "<group>"; };
+		27BAE3AC12A307AD0062BCD7 /* SaucerBankL2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaucerBankL2.png; sourceTree = "<group>"; };
+		27BAE3AD12A307AD0062BCD7 /* SaucerBankR1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaucerBankR1.png; sourceTree = "<group>"; };
+		27BAE3AE12A307AD0062BCD7 /* SaucerBankR2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaucerBankR2.png; sourceTree = "<group>"; };
+		27BAE3AF12A307AD0062BCD7 /* Tractor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tractor1.png; sourceTree = "<group>"; };
+		27BAE3B012A307AD0062BCD7 /* Tractor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tractor2.png; sourceTree = "<group>"; };
+		27BAE3C312A307BC0062BCD7 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		27E23B8D1321894C00EF4DA7 /* UFOAchievementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UFOAchievementViewController.xib; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* UFOs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UFOs-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		ED3D1D9425C7FE280091DB72 /* GameCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterManager.swift; sourceTree = "<group>"; };
+		EDA9BA2925C83844009A2F52 /* UFOAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOAppDelegate.swift; sourceTree = "<group>"; };
+		EDA9BA3325C88FDB009A2F52 /* UFOLeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOLeaderBoardViewController.swift; sourceTree = "<group>"; };
+		EDA9BA4725C895EF009A2F52 /* UFOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOViewController.swift; sourceTree = "<group>"; };
+		EDBB1A4A25C924B20045ED8F /* UFOAchievementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOAchievementViewController.swift; sourceTree = "<group>"; };
+		EDBB1A4F25C93B170045ED8F /* UFOGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOGameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A9A6DE13FF13D000494038 /* StoreKit.framework in Frameworks */,
+				277CFFA4138F2DA30095A0F4 /* AudioToolbox.framework in Frameworks */,
+				277CFF8A138ED8E70095A0F4 /* AVFoundation.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				2756665B12EF562000CC2EB6 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED3D1D9425C7FE280091DB72 /* GameCenterManager.swift */,
+				EDA9BA2925C83844009A2F52 /* UFOAppDelegate.swift */,
+				EDBB1A3E25C91C8C0045ED8F /* UFOViewController */,
+				EDBB1A4225C91CB40045ED8F /* UFOGameVIewController */,
+				EDBB1A4425C91CC60045ED8F /* UFOLeaderboardVIewController */,
+				EDBB1A4625C91CDC0045ED8F /* UFOAchievementViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* UFOs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BAE39F12A307AD0062BCD7 /* Art Assets */ = {
+			isa = PBXGroup;
+			children = (
+				27A8BA3A1402DD3300012F1F /* Ship2.png */,
+				27A8BA3B1402DD3300012F1F /* Ship1.png */,
+				27BAE3A012A307AD0062BCD7 /* Cow1.png */,
+				27BAE3A112A307AD0062BCD7 /* Cow2.png */,
+				27BAE3A212A307AD0062BCD7 /* Cow3.png */,
+				27BAE3A312A307AD0062BCD7 /* Cow1Reversed.png */,
+				27BAE3A412A307AD0062BCD7 /* Cow2Reversed.png */,
+				27BAE3A512A307AD0062BCD7 /* Cow3Reversed.png */,
+				27BAE3A612A307AD0062BCD7 /* Grass.png */,
+				27BAE3A712A307AD0062BCD7 /* Sky.png */,
+				27BAE3A812A307AD0062BCD7 /* UFO.png */,
+				27BAE3A912A307AD0062BCD7 /* Saucer1.png */,
+				27BAE3AA12A307AD0062BCD7 /* Saucer2.png */,
+				2737CA18137F67030002FA0D /* EnemySaucer1.png */,
+				2737CA19137F67030002FA0D /* EnemySaucer2.png */,
+				27BAE3AB12A307AD0062BCD7 /* SaucerBankL1.png */,
+				27BAE3AC12A307AD0062BCD7 /* SaucerBankL2.png */,
+				27BAE3AD12A307AD0062BCD7 /* SaucerBankR1.png */,
+				27BAE3AE12A307AD0062BCD7 /* SaucerBankR2.png */,
+				27BAE3AF12A307AD0062BCD7 /* Tractor1.png */,
+				27BAE3B012A307AD0062BCD7 /* Tractor2.png */,
+			);
+			path = "Art Assets";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27BAE39F12A307AD0062BCD7 /* Art Assets */,
+				8D1107310486CEB800E47090 /* UFOs-Info.plist */,
+				27BAE3C312A307BC0062BCD7 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27A9A6DD13FF13D000494038 /* StoreKit.framework */,
+				277CFFA3138F2DA30095A0F4 /* AudioToolbox.framework */,
+				277CFF89138ED8E70095A0F4 /* AVFoundation.framework */,
+				2756665A12EF562000CC2EB6 /* GameKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDBB1A3E25C91C8C0045ED8F /* UFOViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27BAE39612A307A40062BCD7 /* UFOViewController.xib */,
+				EDA9BA4725C895EF009A2F52 /* UFOViewController.swift */,
+			);
+			path = UFOViewController;
+			sourceTree = "<group>";
+		};
+		EDBB1A4225C91CB40045ED8F /* UFOGameVIewController */ = {
+			isa = PBXGroup;
+			children = (
+				27BAE39912A307A40062BCD7 /* UFOGameViewController.xib */,
+				EDBB1A4F25C93B170045ED8F /* UFOGameViewController.swift */,
+			);
+			path = UFOGameVIewController;
+			sourceTree = "<group>";
+		};
+		EDBB1A4425C91CC60045ED8F /* UFOLeaderboardVIewController */ = {
+			isa = PBXGroup;
+			children = (
+				2732E90B130870BB00F44C80 /* UFOLeaderboardViewController.xib */,
+				EDA9BA3325C88FDB009A2F52 /* UFOLeaderBoardViewController.swift */,
+			);
+			path = UFOLeaderboardVIewController;
+			sourceTree = "<group>";
+		};
+		EDBB1A4625C91CDC0045ED8F /* UFOAchievementViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27E23B8D1321894C00EF4DA7 /* UFOAchievementViewController.xib */,
+				EDBB1A4A25C924B20045ED8F /* UFOAchievementViewController.swift */,
+			);
+			path = UFOAchievementViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* UFOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "UFOs" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFOs;
+			productName = UFOs;
+			productReference = 1D6058910D05DD3D006BFB54 /* UFOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = LVMU8HSZFP;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UFOs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* UFOs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BAE39C12A307A40062BCD7 /* UFOViewController.xib in Resources */,
+				27BAE39E12A307A40062BCD7 /* UFOGameViewController.xib in Resources */,
+				27BAE3B112A307AD0062BCD7 /* Cow1.png in Resources */,
+				27BAE3B212A307AD0062BCD7 /* Cow2.png in Resources */,
+				27BAE3B312A307AD0062BCD7 /* Cow3.png in Resources */,
+				27BAE3B412A307AD0062BCD7 /* Cow1Reversed.png in Resources */,
+				27BAE3B512A307AD0062BCD7 /* Cow2Reversed.png in Resources */,
+				27BAE3B612A307AD0062BCD7 /* Cow3Reversed.png in Resources */,
+				27BAE3B712A307AD0062BCD7 /* Grass.png in Resources */,
+				27BAE3B812A307AD0062BCD7 /* Sky.png in Resources */,
+				27BAE3B912A307AD0062BCD7 /* UFO.png in Resources */,
+				27BAE3BA12A307AD0062BCD7 /* Saucer1.png in Resources */,
+				27BAE3BB12A307AD0062BCD7 /* Saucer2.png in Resources */,
+				27BAE3BC12A307AD0062BCD7 /* SaucerBankL1.png in Resources */,
+				27BAE3BD12A307AD0062BCD7 /* SaucerBankL2.png in Resources */,
+				27BAE3BE12A307AD0062BCD7 /* SaucerBankR1.png in Resources */,
+				27BAE3BF12A307AD0062BCD7 /* SaucerBankR2.png in Resources */,
+				27BAE3C012A307AD0062BCD7 /* Tractor1.png in Resources */,
+				27BAE3C112A307AD0062BCD7 /* Tractor2.png in Resources */,
+				27BAE3C412A307BC0062BCD7 /* MainWindow.xib in Resources */,
+				2732E90D130870BB00F44C80 /* UFOLeaderboardViewController.xib in Resources */,
+				27E23B8F1321894C00EF4DA7 /* UFOAchievementViewController.xib in Resources */,
+				2737CA1A137F67030002FA0D /* EnemySaucer1.png in Resources */,
+				2737CA1B137F67030002FA0D /* EnemySaucer2.png in Resources */,
+				27A8BA3C1402DD3300012F1F /* Ship2.png in Resources */,
+				27A8BA3D1402DD3300012F1F /* Ship1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA9BA2A25C83844009A2F52 /* UFOAppDelegate.swift in Sources */,
+				8B9AFA4F26B1E3AC002BE0A6 /* GameCenterManager.swift in Sources */,
+				EDBB1A3C25C91A1A0045ED8F /* UFOViewController.swift in Sources */,
+				EDA9BA4425C89463009A2F52 /* UFOLeaderBoardViewController.swift in Sources */,
+				EDBB1A4B25C924B20045ED8F /* UFOAchievementViewController.swift in Sources */,
+				EDBB1A5A25C959F90045ED8F /* UFOGameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = LVMU8HSZFP;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "UFOs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfsw.ufos;
+				PRODUCT_NAME = UFOs;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = LVMU8HSZFP;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "UFOs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfsw.ufos;
+				PRODUCT_NAME = UFOs;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "UFOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UFOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
